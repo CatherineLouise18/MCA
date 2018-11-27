@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/MEI/Prayer.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score', 'data/Week3/MEI/Prayer.mei') // <-- CHANGE THIS TO YOUR FILE
