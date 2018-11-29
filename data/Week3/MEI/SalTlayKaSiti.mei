@@ -6,6 +6,34 @@
         <fileDesc>
             <titleStmt>
                 <title>Sal Tlay Ka Siti</title>
+				<title authURI="https://www.ibdb.com/broadway-production/the-book-of-mormon-488721/#songs" authority="The Broadway League: Internet Broadway Database">Sal Tlay Ka Siti</title>
+<respStmt>
+<persName role="cmp" startdate="1971" authURI="https://www.ibdb.com/broadway-cast-staff/matt-stone-488722"
+authority="The Broadway League: Internet Broadway Database" xml:id="Composer">Matt Stone</persName>
+</respStmt>
+<respStmt>
+<persName role="cmp" startdate="1975" authURI="https://www.ibdb.com/broadway-cast-staff/robert-lopez-109408"
+authority="The Broadway League: Internet Broadway Database" xml:id="Composer">Robert Lopez</persName>
+</respStmt>
+<respStmt>
+<persName role="cmp" startdate="1969" authURI="https://www.ibdb.com/broadway-cast-staff/trey-parker-488723"
+authority="The Broadway League: Internet Broadway Database" xml:id="Composer">Trey Parker</persName>
+</respStmt>
+<respStmt>
+<persName role="lyr" startdate="1971" authURI="https://www.ibdb.com/broadway-cast-staff/matt-stone-488722"
+authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Matt Stone</persName>
+</respStmt>
+<respStmt>
+<persName role="lyr" startdate="1975" authURI="https://www.ibdb.com/broadway-cast-staff/robert-lopez-109408"
+authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Robert Lopez</persName>
+</respStmt>
+<respStmt>
+<persName role="lyr" startdate="1969" authURI="https://www.ibdb.com/broadway-cast-staff/trey-parker-488723"
+authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Trey Parker</persName>
+</respStmt>
+<availability>
+<useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
+</availability>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>

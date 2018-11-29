@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>For The First Time In Forever</title>
-                <title authURI="https://www.ibdb.com/broadway-production/frozen-515657/#songs" authority="The Broadway League: Internet Broadway Database">Frozen</title>
+                <title authURI="https://www.ibdb.com/broadway-production/frozen-515657/#songs" authority="The Broadway League: Internet Broadway Database" xml:id="m-8">Frozen</title>
                 <respStmt>
                 <persName role="cmp" startdate="1972" authURI="https://en.wikipedia.org/wiki/Kristen_Anderson-Lopez"
                 authority="Wikipedia" xml:id="Composer">Kristen Anderson-Lopez</persName>
@@ -24,7 +24,7 @@
                 authority="Wikipedia" xml:id="Lyricist">Robert Lopez</persName>
                 </respStmt>
                 <availability>
-                <useRestrict copyright="2013 Wonderland Music Company, Inc.">2013 Wonderland Music Company, Inc.</useRestrict>
+                <useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
                 </availability>
 
             </titleStmt>
