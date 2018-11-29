@@ -4,6 +4,8 @@
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
+        <sourceDesc>
+        <source xml:id="header">
             <titleStmt xml:id="m-7">
 			 <title>For The First Time In Forever</title>
                 <title authURI="https://www.ibdb.com/broadway-production/frozen-515657/#songs" authority="The Broadway League: Internet Broadway Database" xml:id="m-8">Frozen</title>
@@ -26,31 +28,26 @@
                 <availability>
                 <useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
                 </availability>
-              
-<title authURI="https://www.ibdb.com/broadway-production/frozen-515657/#songs" authority="The Broadway League: Internet Broadway Database" xml:id="m-8">Frozen</title>
-<respStmt>
-<persName role="cmp" startdate="1972" authURI="https://en.wikipedia.org/wiki/Kristen_Anderson-Lopez"
-authority="Wikipedia" xml:id="Composer">Kristen Anderson-Lopez</persName>
-</respStmt>
-<respStmt>
-<persName role="cmp" startdate="1975" authURI="https://en.wikipedia.org/wiki/Robert_Lopez"
-authority="Wikipedia" xml:id="Composer">Robert Lopez</persName>
-</respStmt>
-<respStmt>
-<persName role="lyr" startdate="1972" authURI="https://en.wikipedia.org/wiki/Kristen_Anderson-Lopez"
-authority="Wikipedia" xml:id="Lyricist">Kristen Anderson-Lopez</persName>
-</respStmt>
-<respStmt>
-<persName role="lyr" startdate="1975" authURI="https://en.wikipedia.org/wiki/Robert_Lopez"
-authority="Wikipedia" xml:id="Lyricist">Robert Lopez</persName>
-</respStmt>
-<availability>
-<useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
-</availability>
-
-
-            </titleStmt>
-            <pubStmt></pubStmt>
+  </titleStmt>
+  <editionStmt>
+            <pubStmt><title>of publisher</title>
+            <pubPlace>Publication Place</pubPlace>
+            <respStmt>
+            <persName role="edt">Editor Name</name>
+            </respStmt>
+            <respStmt>
+            <resp>Published By</resp>
+            <corpName role="pbl">publisher name</corpName>
+            <resp>Publication Date</resp>
+            <date>Date of Publication</date>
+            </respStmt>
+            </pubStmt>
+            <availability>
+            <useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
+            </availability>
+            </editionStmt>
+            </source>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001987496129">
             <appInfo xml:id="appinfo-0000001091010837">
