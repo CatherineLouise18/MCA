@@ -32,10 +32,23 @@ authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Ro
 authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Trey Parker</persName>
 </respStmt>
 <availability>
-<useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
+<useRestrict copyright="2011 ONLY FOR NOW, INC. and FURRY CARLOS MUSIC PUBLISHING, INC." xml:id="Copyright">2011 ONLY FOR NOW, INC. and FURRY CARLOS MUSIC PUBLISHING, INC. All Rights on behalf of itself and ONLY FOR NOW, INC. All Rights Reserved.</useRestrict>
 </availability>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <editionStmt>
+                      <pubStmt>
+                      <pubPlace>U.S.A.</pubPlace>
+                      <respStmt>
+                      <persName role="vocal arranger">Stephen Oremus</name>
+                      </respStmt>
+                      <respStmt>
+                      <resp>Published By</resp>
+                      <corpName role="pbl">Alfred Music Publishing Co, Inc.</corpName>
+                      </respStmt>
+                      </pubStmt>
+                      </editionStmt>
+                      </source>
+                      </sourceDesc>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001716374171">
             <appInfo xml:id="appinfo-0000000937997089">

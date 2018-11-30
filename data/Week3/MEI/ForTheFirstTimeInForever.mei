@@ -28,7 +28,27 @@
                 </availability>
 
             </titleStmt>
-            <pubStmt></pubStmt>
+            </titleStmt>
+            <editionStmt>
+                      <pubStmt><title>of publisher</title>
+                      <pubPlace>Publication Place</pubPlace>
+                      <respStmt>
+                      <persName role="edt">Editor Name</name>
+                      </respStmt>
+                      <respStmt>
+                      <resp>Published By</resp>
+                      <corpName role="pbl">publisher name</corpName>
+                      <resp>Publication Date</resp>
+                      <date>Date of Publication</date>
+                      </respStmt>
+                      </pubStmt>
+                      <availability>
+                      <useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc. All Rights Reserved</useRestrict>
+                      </availability>
+                      </editionStmt>
+                      </source>
+                      </sourceDesc>
+            
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001379186134">
             <appInfo xml:id="appinfo-0000000402765360">

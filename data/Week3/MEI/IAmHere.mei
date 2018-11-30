@@ -24,23 +24,21 @@ authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Da
 <persName role="lyr" authURI="https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316"
 authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Irene Sankoff</persName>
 </respStmt>
-<pubStmt>
-<title></title>
-<pubPlace>USA</pubPlace>
-<respStmt>
-<persName role="edt">Editor name</name>
-</respStmt>
-<date>a date</date>
-<respStmt>
-<resp>Published by</resp>
-<corpName role="pbl">Publisher name</corpName>
-</respStmt>
-</pubStmt>
 <availability>
-<useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
+<useRestrict copyright="2017 Sankoff and Hein" xml:id="Copyright">2017 Sankoff and Hein All Rights Reserved</useRestrict>
 </availability>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <editionStmt>
+                      <pubStmt>
+                      <respStmt>
+                      <resp>Published By</resp>
+                      <corpName role="pbl">Hal Leonard</corpName>
+                      </respStmt>
+                      </pubStmt>
+                      </editionStmt>
+                      </source>
+                      </sourceDesc>
+
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000000004089602">
             <appInfo xml:id="appinfo-0000001352317245">
