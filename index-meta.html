@@ -15,7 +15,7 @@
 
     <div id="content">
       <!-- ADD YOUR HTML CONTENT HERE! -->
-      <h1>My</h1>
+      <h1>My Project</h1>
       <h2>Metadata</h2>
       <p id="meta"></p>
 
@@ -47,6 +47,7 @@
            /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
             */
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
           }
         }
       }
