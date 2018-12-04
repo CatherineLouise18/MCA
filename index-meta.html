@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css" media="all" />
     <script src="js/verovio-toolkit.js"></script>
     <script src="js/utils.js"></script>
+ 
   </head>
 
   <body>
@@ -19,7 +20,14 @@
       <h2>Metadata</h2>
       <p id="meta"></p>
 
+          document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/david-hein-510317" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
           
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
+        
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer of St. Francis']").textContent + "</p>"
           
     </div>
 
@@ -53,14 +61,7 @@
           }
         }
       }
-	  document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
-          
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
-        
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer']").textContent + "</p>"
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer of St. Francis']").textContent + "</p>"
+	
     </script>
   </body>
 
