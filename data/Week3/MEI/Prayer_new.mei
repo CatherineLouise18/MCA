@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
@@ -26,10 +26,20 @@ authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Ir
 </respStmt>
 
 <availability>
-<useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
+<useRestrict copyright="2017 Sankoff and Hein" xml:id="Copyright Prayer">2017 Sankoff and Hein All Rights Reserved</useRestrict>
+<useRestrict copyright="1967, OCP Publications" xml:id="Copyright Prayer of St. Francis">1967, OCP Publications All Rights Reserved</useRestrict>
 </availability>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <editionStmt>
+                      <pubStmt>
+                      <respStmt>
+                      <resp>Published By</resp>
+                      <corpName role="pbl">Hal Leonard</corpName>
+                      </respStmt>
+                      </pubStmt>
+                      </editionStmt>
+                      </source>
+                      </sourceDesc>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001687136212">
             <appInfo xml:id="appinfo-0000001443609101">
