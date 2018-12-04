@@ -29,7 +29,6 @@
                 <useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
                 </availability>
   </titleStmt>
-        </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001987496129">
             <appInfo xml:id="appinfo-0000001091010837">
                 <application xml:id="application-0000000081764787" isodate="2018-11-19T09:11:13" version="2.0.0-dev-e42e3a6">
@@ -38,7 +37,10 @@
                 </application>
             </appInfo>
         </encodingDesc>
-    </meiHead>
+		</source>
+		</sourceDesc>
+		</fileDesc>
+		</meiHead>
     <music>
         <body>
             <mdiv xml:id="mdiv-0000001971448197">
