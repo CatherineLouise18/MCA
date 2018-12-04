@@ -18,7 +18,16 @@
       <h1>My Project</h1>
       <h2>Metadata</h2>
       <p id="meta"></p>
-
+ Composers
+            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/david-hein-510317" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
+            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
+            Lyricists
+            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/david-hein-510317" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
+            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
+            Copyright
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer of St. Francis']").textContent + "</p>"
+          }
     </div>
 
     <!-- **** DO NO EDIT BELOW THIS LINE **** -->
@@ -47,15 +56,7 @@
            /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
             */
-            Composers
-            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/david-hein-510317" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
-            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
-            Lyricists
-            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/david-hein-510317" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
-            document.querySelector("#meta").innerHTML += "<a href=\"https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
-            Copyright
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer']").textContent + "</p>"
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright Prayer of St. Francis']").textContent + "</p>"
+           
           }
         }
       }
