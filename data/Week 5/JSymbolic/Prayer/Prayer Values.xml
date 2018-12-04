@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>I:\DMIS 3\Music\Individual Lab Tasks\Mid\Prayer.mid</data_set_id>
+		<feature>
+			<name>Basic Pitch Histogram</name>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.059E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>3.178E-3</v>
+			<v>0E0</v>
+			<v>5.297E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>2.86E-2</v>
+			<v>0E0</v>
+			<v>2.119E-3</v>
+			<v>1.059E-3</v>
+			<v>0E0</v>
+			<v>3.39E-2</v>
+			<v>0E0</v>
+			<v>3.284E-2</v>
+			<v>1.059E-3</v>
+			<v>0E0</v>
+			<v>4.237E-3</v>
+			<v>0E0</v>
+			<v>9.64E-2</v>
+			<v>0E0</v>
+			<v>1.695E-2</v>
+			<v>4.343E-2</v>
+			<v>2.966E-2</v>
+			<v>6.886E-2</v>
+			<v>4.237E-3</v>
+			<v>1.377E-1</v>
+			<v>4.343E-2</v>
+			<v>2.754E-2</v>
+			<v>3.072E-2</v>
+			<v>1.377E-2</v>
+			<v>1.038E-1</v>
+			<v>2.119E-3</v>
+			<v>5.614E-2</v>
+			<v>2.754E-2</v>
+			<v>3.496E-2</v>
+			<v>5.508E-2</v>
+			<v>8.475E-3</v>
+			<v>4.449E-2</v>
+			<v>8.475E-3</v>
+			<v>2.013E-2</v>
+			<v>2.119E-3</v>
+			<v>4.237E-3</v>
+			<v>6.356E-3</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>3.4E1</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitches</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>4.6E1</v>
+		</feature>
+		<feature>
+			<name>Importance of Bass Register</name>
+			<v>2.998E-1</v>
+		</feature>
+		<feature>
+			<name>Importance of Middle Register</name>
+			<v>6.896E-1</v>
+		</feature>
+		<feature>
+			<name>Importance of High Register</name>
+			<v>1.059E-2</v>
+		</feature>
+		<feature>
+			<name>Dominant Spread</name>
+			<v>3E0</v>
+		</feature>
+		<feature>
+			<name>Strong Tonal Centres</name>
+			<v>1E0</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>5.727E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>5.7E1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Most Common Pitch</name>
+			<v>1.377E-1</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>8.226E0</v>
+		</feature>
+		<feature>
+			<name>Major or Minor</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>First Pitch</name>
+			<v>5.3E1</v>
+		</feature>
+		<feature>
+			<name>Last Pitch</name>
+			<v>5E1</v>
+		</feature>
+		<feature>
+			<name>Glissando Prevalence</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Melodic Interval</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Mean Melodic Interval</name>
+			<v>3.317E0</v>
+		</feature>
+		<feature>
+			<name>Repeated Notes</name>
+			<v>3.156E-1</v>
+		</feature>
+		<feature>
+			<name>Chord Type Histogram</name>
+			<v>4.117E-1</v>
+			<v>8.847E-2</v>
+			<v>2.319E-1</v>
+			<v>0E0</v>
+			<v>0E0</v>
+			<v>1.045E-1</v>
+			<v>1.879E-2</v>
+			<v>2.502E-2</v>
+			<v>8.16E-3</v>
+			<v>7.187E-2</v>
+			<v>3.968E-2</v>
+		</feature>
+		<feature>
+			<name>Initial Time Signature</name>
+			<v>4E0</v>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Total Number of Notes</name>
+			<v>9.44E2</v>
+		</feature>
+		<feature>
+			<name>Note Density per Quarter Note</name>
+			<v>4.583E0</v>
+		</feature>
+		<feature>
+			<name>Rhythmic Value Histogram</name>
+			<v>3.178E-3</v>
+			<v>1.801E-2</v>
+			<v>4.883E-1</v>
+			<v>9.534E-3</v>
+			<v>2.129E-1</v>
+			<v>9.004E-2</v>
+			<v>8.792E-2</v>
+			<v>1.695E-2</v>
+			<v>5.508E-2</v>
+			<v>1.059E-3</v>
+			<v>1.483E-2</v>
+			<v>2.119E-3</v>
+		</feature>
+		<feature>
+			<name>Range of Rhythmic Values</name>
+			<v>1.1E1</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Dotted Notes</name>
+			<v>1.197E-1</v>
+		</feature>
+		<feature>
+			<name>Mean Rhythmic Value</name>
+			<v>1.202E0</v>
+		</feature>
+		<feature>
+			<name>Duration in Seconds</name>
+			<v>1.261E2</v>
+		</feature>
+		<feature>
+			<name>Note Density</name>
+			<v>7.485E0</v>
+		</feature>
+		<feature>
+			<name>Minimum Note Duration</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Maximum Note Duration</name>
+			<v>9.795E0</v>
+		</feature>
+		<feature>
+			<name>Average Note Duration</name>
+			<v>7.17E-1</v>
+		</feature>
+		<feature>
+			<name>Amount of Staccato</name>
+			<v>3.178E-3</v>
+		</feature>
+		<feature>
+			<name>Rhythmic Variability</name>
+			<v>3.334E-2</v>
+		</feature>
+		<feature>
+			<name>Maximum Number of Independent Voices</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Average Number of Independent Voices</name>
+			<v>2.837E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Number of Independent Voices</name>
+			<v>1.553E0</v>
+		</feature>
+		<feature>
+			<name>Voice Equality - Number of Notes</name>
+			<v>1.686E2</v>
+		</feature>
+		<feature>
+			<name>Voice Equality - Note Duration</name>
+			<v>3.858E1</v>
+		</feature>
+		<feature>
+			<name>Voice Equality - Dynamics</name>
+			<v>4.163E0</v>
+		</feature>
+		<feature>
+			<name>Voice Equality - Melodic Leaps</name>
+			<v>1.069E0</v>
+		</feature>
+		<feature>
+			<name>Voice Equality - Range</name>
+			<v>1.282E1</v>
+		</feature>
+		<feature>
+			<name>Importance of Loudest Voice</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Relative Range of Loudest Voice</name>
+			<v>4.783E-1</v>
+		</feature>
+		<feature>
+			<name>Relative Range Isolation of Loudest Voice</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Relative Range of Highest Line</name>
+			<v>3.696E-1</v>
+		</feature>
+		<feature>
+			<name>Relative Note Density of Highest Line</name>
+			<v>4.968E-1</v>
+		</feature>
+		<feature>
+			<name>Relative Note Durations of Lowest Line</name>
+			<v>1.833E0</v>
+		</feature>
+		<feature>
+			<name>Relative Size of Melodic Intervals in Lowest Line</name>
+			<v>9.333E-1</v>
+		</feature>
+		<feature>
+			<name>Voice Overlap</name>
+			<v>9.248E-1</v>
+		</feature>
+		<feature>
+			<name>Voice Separation</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Variability of Voice Separation</name>
+			<v>2.449E0</v>
+		</feature>
+		<feature>
+			<name>Variation of Dynamics</name>
+			<v>7.705E0</v>
+		</feature>
+		<feature>
+			<name>Variation of Dynamics In Each Voice</name>
+			<v>7.735E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
