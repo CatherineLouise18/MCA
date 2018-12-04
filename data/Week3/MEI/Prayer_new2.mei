@@ -5,7 +5,29 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-               
+                <title>Prayer</title>
+				<title authURI="https://www.ibdb.com/broadway-production/come-from-away-510272/#songs" authority="The Broadway League: Internet Broadway Database">Prayer</title>
+<respStmt>
+<persName role="cmp" authURI="https://www.ibdb.com/broadway-cast-staff/david-hein-510317"
+authority="The Broadway League: Internet Broadway Database" xml:id="Composer">David Hein</persName>
+</respStmt>
+<respStmt>
+<persName role="cmp" authURI="https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316"
+authority="The Broadway League: Internet Broadway Database" xml:id="Composer">Irene Sankoff</persName>
+</respStmt>
+
+<respStmt>
+<persName role="lyr" authURI="https://www.ibdb.com/broadway-cast-staff/david-hein-510317"
+authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">David Hein</persName>
+</respStmt>
+<respStmt>
+<persName role="lyr" authURI="https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316"
+authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Irene Sankoff</persName>
+</respStmt>
+
+<availability>
+<useRestrict copyright="2013 Wonderland Music Company, Inc." xml:id="Copyright">2013 Wonderland Music Company, Inc.</useRestrict>
+</availability>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
