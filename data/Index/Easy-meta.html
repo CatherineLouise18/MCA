@@ -19,15 +19,15 @@
       <h2>Metadata</h2>
       <p id="meta"></p>
 
+            <!--document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Composer']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Composer']").textContent + "</p></a>"
-          
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
-            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
-        
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright']").textContent + "</p>"
 
-          
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='Lyricist']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='Lyricist']").textContent + "</p></a>"
+
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='Copyright']").textContent + "</p>"-->
+
+
     </div>
 
     <!-- **** DO NO EDIT BELOW THIS LINE **** -->
@@ -36,10 +36,10 @@
       <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
     </div>
     <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
-   <script src="js/index.js"></script>
+   <script src="js/Easy-index.js"></script>
     <script>
       var xhr = new XMLHttpRequest()
-      xhr.open('GET', 'data/Week3/MEI/Prayer.mei') // <-- change this to the right file
+      xhr.open('GET', 'data/Week3/MEI/ForTheFirstTimeInForeverEasy.mei') // <-- change this to the right file
       xhr.send(null)
 
       /* Deal with the response */
@@ -56,7 +56,7 @@
            /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
             */
-           
+
           }
         }
       }
