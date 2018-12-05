@@ -8,8 +8,8 @@
                 <title>Prayer</title>
 				<title authURI="https://www.ibdb.com/broadway-production/come-from-away-510272/#songs" authority="The Broadway League: Internet Broadway Database">Prayer</title>
 <respStmt>
-<persName role="cmp" authURI="https://www.ibdb.com/broadway-cast-staff/david-hein-510317"
-authority="The Broadway League: Internet Broadway Database" xml:id="Composer">David Hein</persName>
+<persName role="cmp" xml:id="Composer" authURI="https://www.ibdb.com/broadway-cast-staff/david-hein-510317"
+authority="The Broadway League: Internet Broadway Database">David Hein</persName>
 </respStmt>
 <respStmt>
 <persName role="cmp" authURI="https://www.ibdb.com/broadway-cast-staff/irene-sankoff-510316"
@@ -30,7 +30,7 @@ authority="The Broadway League: Internet Broadway Database" xml:id="Lyricist">Ir
 <useRestrict copyright="1967, OCP Publications" xml:id="Copyright Prayer of St. Francis">1967, OCP Publications All Rights Reserved</useRestrict>
 </availability>
             </titleStmt>
-			
+
             <editionStmt>
                       <pubStmt>
                       <respStmt>
