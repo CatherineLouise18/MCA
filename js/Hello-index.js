@@ -20,5 +20,5 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'Week3/MEI/Hello.mei')
+showScore('score', 'data/Week3/MEI/Hello.mei')
  // <-- CHANGE THIS TO YOUR FILE
